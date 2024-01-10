@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body{
+    display: flex;
+    margin: 0;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+#main{
+    width: 100%;
+}
+
+#sidebar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebar-icon{
+    padding: 2.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+.sidebar-icon p{
+    margin: 0;
+}
+
+.sidebar-icon ion-icon{
+    font-size: 1.5em;
+}
+
+#topbar{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   height: 8vh;
+   margin-top: 1.2em;
+}
+
+#logo{
+    height: 60%;
+}
+
+#search-wrapped{
+    display: flex;
+    height: 50%;
+    width: 30%;
+}
+
+#topbar-icons{
+    display: flex;
+}
+
+.topbar-icon ion-icon{
+    font-size: 2em;
+    padding: 0 0.3em;
+}
+
+#mic-icon ion-icon{
+    font-size: 1.7em;
+}
+
+#search-button{
+    padding: 0 0.6em;
+    font-size: 1.2em;
+    display:flex;
+    align-items: center;
+}
+
+#mic-icon{
+    margin: 0 0.5em;
+}
+
+#content{
+    margin-top: 40px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.pic-thumb{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    cursor: pointer;
+}
+
+.picture{
+width: 50vh;
+margin-top: 1.2em;
+}
+
+.Epicode-logo{
+    width: 40px;
+    height: 40px;
+    margin-right: 0.5em;
+}
+
+.description-content {
+    display: flex;
+    margin-top: 0.5em;
+    justify-content: center;
+                        
+}
+  
+h1{
+    padding: 0;
+    margin: 0;
+    font-size: large;
+    align-self: flex-start;
+}
+
+.h1p-content{
+    padding-left: 0.4em;
+    margin: 0;
+    align-self: flex-end;
+    font-size: small;
+}
+
+.p-description{
+    margin-top: 0;
+}
